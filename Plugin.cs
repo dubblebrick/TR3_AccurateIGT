@@ -13,7 +13,7 @@ public class Plugin : BaseUnityPlugin
 
     public static bool CurrentlyLoading = false;
     public static float TotalLoadTime = 0;
-        
+
     private void Awake()
     {
         // Plugin startup logic
@@ -59,10 +59,15 @@ class HarmonyXPlugins
         return true;
     }
 
-    [HarmonyPatch(typeof(GameCompleteMenu), "FadeInFinished")]
+    [HarmonyPatch(typeof(GameCompleteMenu), "SetupTarotScreen")]
     [HarmonyPostfix]
-    static void EndScreenPostfix()
+    static void EndScreenPostfix(ref GameCompleteMenu __instance)
     {
+        __instance.GameTimeLabel.text = "LRT" + __instance.GameTimeLabel.text.Substring(4);
+
+        Plugin.Log($"Displayed time: {SlotManager.Instance.GetActiveSlotTotalPlayedTime()}");
         Plugin.Log($"Total loading time: {Plugin.TotalLoadTime} seconds.");
+        Plugin.Log($"Total time with loads: {SlotManager.Instance.GetActiveSlotTotalPlayedTime() + Plugin.TotalLoadTime} seconds");
+        Plugin.Log("Note: The loading time is cleared when the game is closed due to technical limitations.");
     }
 }
