@@ -1,4 +1,4 @@
-# TR3_AccurateIGT
+# Accurate IGT
 A patch for The Room Three that pauses the in-game timer during loading screens.
 
 ## Installation
