@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simon\\Documents\\_modding\\pc games\\The_Room\\TR3\\plugins\\TR3_AccurateIGT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0823F3B1-FF23-1179-46CD-32993C8DB317}|Accurate_IGT.csproj|c:\\users\\simon\\documents\\_modding\\pc games\\the_room\\tr3\\plugins\\tr3_accurateigt\\accurate_igt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0823F3B1-FF23-1179-46CD-32993C8DB317}|Accurate_IGT.csproj|solutionrelative:accurate_igt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0823F3B1-FF23-1179-46CD-32993C8DB317}|Accurate_IGT.csproj|c:\\users\\simon\\documents\\_modding\\pc games\\the_room\\tr3\\plugins\\tr3_accurateigt\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0823F3B1-FF23-1179-46CD-32993C8DB317}|Accurate_IGT.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Accurate_IGT.csproj",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\_modding\\pc games\\The_Room\\TR3\\plugins\\TR3_AccurateIGT\\Accurate_IGT.csproj",
+              "RelativeDocumentMoniker": "Accurate_IGT.csproj",
+              "ToolTip": "C:\\Users\\simon\\Documents\\_modding\\pc games\\The_Room\\TR3\\plugins\\TR3_AccurateIGT\\Accurate_IGT.csproj",
+              "RelativeToolTip": "Accurate_IGT.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-27T20:29:27.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\_modding\\pc games\\The_Room\\TR3\\plugins\\TR3_AccurateIGT\\Plugin.cs",
+              "RelativeDocumentMoniker": "Plugin.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\_modding\\pc games\\The_Room\\TR3\\plugins\\TR3_AccurateIGT\\Plugin.cs",
+              "RelativeToolTip": "Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:29:24.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
